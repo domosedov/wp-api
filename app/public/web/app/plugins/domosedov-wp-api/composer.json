@@ -1,0 +1,22 @@
+{
+    "name": "domosedov/domosedov-wp-api",
+    "description": "API for App",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandr Grigorii",
+            "email": "domosedov.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^5.1",
+        "gabordemooij/redbean": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Domosedov\\WPAPI\\": "core"
+        },
+        "files": []
+    }
+}
